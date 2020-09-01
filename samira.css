@@ -1,1 +1,57 @@
-h1
+.GrönaLund-bild{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+h1{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: rgb(128, 41, 41);
+    font-size: 5.0em;
+    text-shadow: 0 0 3px #0400ff, 0 0 5px #0000FF;
+    
+    }
+
+h2{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 4.0em;
+    
+  }
+
+  #GrönaLund{
+    display: block;
+    min-width: 60%;
+    min-height: 60%;
+    max-width: 60%
+    max-height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+
+  .text-gronalund{
+    background-color: rgba(245, 245, 245, 0.774);
+    font-family: 'Alata', sans-serif;
+    font-size: 10px;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #F6C5DD;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.692), 0 0 5px rgb(0, 0, 0);
+  }
+
+  .samira-container{
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    border-radius: 20px;
+    background-color: rgba(255, 230, 249, 0.350);
+    font-family: 'Alata', sans-serif;
+  }

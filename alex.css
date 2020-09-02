@@ -1,7 +1,7 @@
 
 body{
-    margin: 0;
-    padding: 0;
+/*     margin: 0;
+    padding: 0; */
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -39,7 +39,7 @@ h1{
     margin: 60px auto 30px auto;
 }
 
-img{
+.alex-bild{
     max-width: 80%;
     display: block;
     margin: 40px auto;
@@ -50,16 +50,16 @@ p{
     margin: 0 auto;
 }
 
-ul{
+.alex-places{
     max-width: 80%;
     margin: 0 auto;
     list-style-type: square;
 }
 
-li{
+.alex-places li{
     margin: 20px 0;
 }
 
-li::first-line{
+.alex-places li::first-line{
     font-weight: bold;
 }

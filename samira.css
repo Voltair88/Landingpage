@@ -1,1 +1,114 @@
-h1
+/* .GrönaLund-bild{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+h1{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 0 0 3px #8f4759, 0 0 5px #bb6161;
+    
+    }
+/* 
+h2{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 4.0em;
+    -moz-columns:3;
+    -webkit-columns:3;
+    columns:3;
+    
+  } */
+
+  /* .GrönaLund{
+    display: block;
+    min-width: 60%;
+    min-height: 60%;
+    max-width: 60%
+    max-height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  } */
+
+  .text-gronalund{
+    background-color: rgba(245, 245, 245, 0.774);
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    width: 400px;
+    padding: 5px;
+    border: 10px solid #F6C5DD;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.692), 0 0 5px rgb(0, 0, 0);
+  }
+
+  .samira-container{
+    font-family: 'Alata', sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    border-radius: 20px;
+    /* background-color: rgba(255, 230, 249, 0.350);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.692), 0 0 5px rgb(0, 0, 0); */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.692), 0 0 5px rgb(0, 0, 0);
+    
+  }
+
+  .container{
+    position:relative;
+    text-align:center;
+    padding:20px 0;
+    width:420px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+
+.container::before{
+    display: block;
+    content:'Kontaktuppgifter';
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 3px #8f4759, 0 0 5px #bb6161;
+}
+
+.container span{
+    display:inline-block;
+    padding:2px 6px;
+    /* background-color:#eff8f8; */
+    color:#01090a;
+    border-radius:10px;
+    margin:3px;
+    cursor:default;
+}
+
+.container span::before{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    content:attr(data-title);
+    color:rgb(3, 1, 1);
+    opacity:0;
+
+  /* the transitions */
+    -webkit-transition:opacity 0.3s;
+    transition:opacity 0,1s;
+}
+.container span:hover::before{
+    opacity:5;
+}
+

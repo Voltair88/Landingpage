@@ -44,20 +44,29 @@
       float: left;
     }
     
-  }
+  
 
-#Hornsberg {
+.Hornsberg {
+
   display: block;
-  min-width: 60%;
-  min-height: 60%;
   max-width: 60%;
-  max-height: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
 
   
 }
+
+h1{
+  font-family: 'Amatic SC', cursive;
+text-align: center;
+color: white;
+font-size: 8.0em;
+text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+
+
 
 #bg{
     position: fixed;
@@ -81,7 +90,7 @@
 /*   background-color: rgba(255, 230, 249, 0.774); */
   font-family: 'Amatic SC', cursive;
   font-size: 2.5em;
-  width: 820px;
+  max-width: 820px;
   padding: 10px;
 /*   border: 5px solid #F6C5DD; */
   margin: auto;
@@ -100,9 +109,54 @@
   border-radius: 20px;
   background-color: rgba(255, 230, 249, 0.350);
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 
 }
 
 #visesstl {
   font-size: 7em;
+}
+
+
+/* Styling för forms */
+
+.forms {
+  text-align: center;
+}
+
+.form {
+  
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+#bäststad {
+  padding-bottom: 20px;
+}
+
+fieldset {
+  border: 3px solid rgba(34, 34, 34, 0);
+  
+}
+
+input[type="Email"],
+input[type="mobilnummer"] {
+display: block;
+margin: 0 auto;
+padding: 10px 10px 10px 50px;
+border-radius: 4px;
+
+}
+
+input[type="submit"]{
+  background: #948a8aa9;
+  margin-bottom: 10px;
+
 }

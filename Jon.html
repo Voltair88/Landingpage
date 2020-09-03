@@ -14,7 +14,13 @@
 </head>
 
 <body>
+
+
+    <!-- Background img -->
     <img id="bg" src="stockholm.jpg" id="bg" alt="stockholm">
+    
+    <!-- Nav-bar -->
+    <div>
     <ul class="nav ">
         <li><a class="lista" href="index.html">Home</a></li>
         <li><a class="lista" href="Alex.html">Alex</a></li>
@@ -23,9 +29,16 @@
         <li><a class="lista" href="Samira.html">Samira</a></li>
         <li><a class="lista" href="nisse.html">Nisse</a></li>
     </ul>
+    </div>
 
+
+
+    <!-- Cointainer för övergripande content -->
 <div class="jon-container">
 
+    <!-- Div för Heading, brödtext och bilder -->
+  <div class="textobild">
+    
     <h1>Hornsbergs Strand</h1>
    
     <p class="textbox"> Stockholm är en fantasik och alldeles ljuvlig stad. Men den blomstrar som aldrig annars
@@ -33,20 +46,95 @@
     </p>
    
    
-    <img id="Hornsberg" src="https://scontent-arn2-2.xx.fbcdn.net/v/t1.15752-9/118403147_973100573152026_7554162659818399214_n.jpg?_nc_cat=108&_nc_sid=b96e70&_nc_ohc=Ctc-mWrAwU4AX8kjwsI&_nc_ht=scontent-arn2-2.xx&oh=798cc315b8fe5878383b7a35623d9006&oe=5F732469" id="Hornsberg" alt="Hornsberg">
+    <img class="Hornsberg" src="https://scontent-arn2-2.xx.fbcdn.net/v/t1.15752-9/118403147_973100573152026_7554162659818399214_n.jpg?_nc_cat=108&_nc_sid=b96e70&_nc_ohc=Ctc-mWrAwU4AX8kjwsI&_nc_ht=scontent-arn2-2.xx&oh=798cc315b8fe5878383b7a35623d9006&oe=5F732469" id="Hornsberg" alt="Hornsberg">
    
-   <p class="textbox">Men varför ska en besöka just Hornsbergs strand. Jo, därför här finns massor av möjligheter och hjälpmedel för att maximera din njutning av tillvaron. God glass på stikkinikki, eller en nystekt burgare på 
+    <p class="textbox">Men varför ska en besöka just Hornsbergs strand. Jo, därför här finns massor av möjligheter och hjälpmedel för att maximera din njutning av tillvaron. God glass på stikkinikki, eller en nystekt burgare på 
        lilys burger är bara två starka argument, men skulle du vara sugen på suhi eller annat finns det mängder av alternativ på härliga resturanger och serveringar längs vattnet.
-
-</p>
+    
+    </p>
    
-    <img id="Hornsberg" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/118502847_321844692587152_4578420191694772997_n.jpg?_nc_cat=101&_nc_sid=b96e70&_nc_ohc=29KDoSAi4n0AX_EoACn&_nc_ht=scontent-arn2-1.xx&oh=df115d9e2a96e75f79c4527eb9a142c1&oe=5F7431DA" id="Hornsberg" alt="Hornsberg">
+    <img class="Hornsberg" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/118502847_321844692587152_4578420191694772997_n.jpg?_nc_cat=101&_nc_sid=b96e70&_nc_ohc=29KDoSAi4n0AX_EoACn&_nc_ht=scontent-arn2-1.xx&oh=df115d9e2a96e75f79c4527eb9a142c1&oe=5F7431DA" id="Hornsberg" alt="Hornsberg">
 
     <p class="textbox">Med ett perfekt läge bara ett stenkast från innerstaden och 
         city, vackra vyer och härliga männsikor finns det inte många bortförklaringar till varför en inte bör besöka denna härliga plats!
     </p>
+
     <h2 class="textbox" id="visesstl">Vi ses där!</h2>
-    
+  
+  </div>
+
+
+
+  <!-- Form längst ner i container -->
+<div>
+    <form class="form" action="sats">
+        <header>
+            <img src="" />
+        </header>
+
+        <p>Som avslutning får du gärna delta i denna undersökning för att vi ska kunna förbättra vår sida. Tack på förhand!</p>
+        <!-- Kön -->
+        <p class="fontform">Kön</p>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Man</label>
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Kvinna</label>
+
+        <p>Vems sida tilltalar dig mest?</p>
+        <input type="checkbox" class="tilltalar">
+        <label for="Jon">Jon</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Alex">Alex</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Mattias">Mattias</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Samira">Samira</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Nisse">Nisse</label>
+
+    <div id="bäststad">
+        <p>Vilken är sveriges bästa stad?</p>
+        <input type="checkbox" class="tilltalar">
+        <label for="Stockholm">Stockholm</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Göteborg">Göteborg</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Malmö">Malmö</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Helsingborg">Helsingborg</label>
+        <input type="checkbox" class="tilltalar">
+        <label for="Jönköping">Jönköping</label>
+    </div>
+
+        <fieldset>
+            <legend>Kontaktuppgifter</legend>
+            <input type="email" placeholder="Email" required />
+            <span class="tick"></span>
+            <input type="mobilnummer" placeholder="Mobilnummer" required />
+            <span class="tick"></span>
+        </fieldset>
+
+        
+        <input type="submit" value="submit">
+
+
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 

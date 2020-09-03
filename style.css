@@ -41,7 +41,7 @@
   .title{
     text-align: center;
     color: whitesmoke;
-    font-family: "Futura";
+    font-family: "Futura", monospace;
     font-size: 80px;    
   }
     .text {      

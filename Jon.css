@@ -156,7 +156,8 @@ border-radius: 4px;
 }
 
 input[type="submit"]{
-  background: #948a8aa9;
+  background: #ddcfcfa9;
   margin-bottom: 10px;
+  border-radius: 10px;
 
 }

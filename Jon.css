@@ -1,18 +1,17 @@
 
-.nav{
+  .nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(3, 3, 3, 0.5);
     display: block;
-    font-size: 2em;
-    
   }
   
   .lista {
+    font-family: monospace;
+    font-size: 20px;
     float: left;
-    display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -21,7 +20,6 @@
   }
   .nav a:hover{background-color: #594a85;}
 
-/* background image */
 #bg{
     position: fixed;
     top: 0;
@@ -34,7 +32,7 @@
     opacity: 1.0;
   }
 
-  /* */
+ 
   
   ul {
       list-style-type: none;
@@ -91,7 +89,6 @@
     
 }
 
-  /* background image */
 #bg{
     position: fixed;
     top: 0;
@@ -103,7 +100,7 @@
     z-index: -1;
     opacity: 1.0;
   }
-  /*blur effect*/
+ 
   #bg{
     filter: blur(6px);
     -webkit-filter: blur(6px);

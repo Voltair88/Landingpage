@@ -1,70 +1,48 @@
-.nav{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: rgba(3, 3, 3, 0.5);
-  display: block;
-}
 
-.lista {
-  font-family: monospace;
-  font-size: 20px;
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  background: rgba(3, 0, 0, 0);   
-}
-.nav a:hover{background-color: #594a85;}
-
-/* background image */
-#bg{
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  z-index: -1;
-  opacity: 1.0;
-}
-
-/* */
-
-ul {
+  .nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+    background: rgba(3, 3, 3, 0.5);
     display: block;
+  }
+  
+  .lista {
+    font-family: monospace;
+    font-size: 20px;
+    float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
-  li a:hover {
-    background-color: #111;
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+    opacity: 1.0;
   }
 
-
-  h1{
-      font-family: 'Amatic SC', cursive;
-    text-align: center;
-    color: white;
-    font-size: 8.0em;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+ 
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
     
   }
 
@@ -81,24 +59,23 @@ ul {
   
 }
 
-/* background image */
 #bg{
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  z-index: -1;
-  opacity: 1.0;
-}
-/*blur effect*/
-#bg{
-  filter: blur(6px);
-  -webkit-filter: blur(6px);
-}
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+    opacity: 1.0;
+  }
+ 
+  #bg{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+  
 .textbox {
 
 /*   background-color: rgba(255, 230, 249, 0.774); */

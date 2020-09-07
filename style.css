@@ -3,6 +3,11 @@
   src: url(https://www.cssfontstack.com/Futura);
 }
 
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
 /* background image */
 #bg{
   position: fixed;

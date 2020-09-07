@@ -1,120 +1,144 @@
-
 /* background image */
 
-#bg{
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    z-index: -1;
-    opacity: 1;
-    filter: blur(2px)
-  }
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -1;
+  opacity: 1;
+  filter: blur(2px);
+}
 
-  .nav{
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background: rgba(3, 3, 3, 0.5);
-      display: block;
-    }
-    
-    .lista {
-      font-family: monospace;
-      font-size: 20px;
-      float: left;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      background: rgba(3, 0, 0, 0);   
-    }
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(3, 3, 3, 0.5);
+  display: block;
+}
 
-    .nav a:hover{background-color: #594a85;}
+.lista {
+  font-family: monospace;
+  font-size: 20px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: rgba(3, 0, 0, 0);
+}
 
-    .title{
-        text-align: center;
-        color: whitesmoke;
-        font-family: monospace;
-        font-size: 50px;    
-      }
+.nav a:hover {
+  background-color: #594a85;
+}
 
-    .text {      
-        font-size: 30px;
-        text-align: center;
-        color:whitesmoke;
-        font-family: monospace;
-        background: rgba(49, 49, 49, 0.6);
-        display: inline-block;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 20px 50px 20px 50px;
-    }
+.title {
+  text-align: center;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 72px;
+}
 
-    .centrera {
-        box-sizing: border-box;
-        margin: 0 auto;
-        max-width: 55em;
-        padding: 2em;
-    
-    }
-    
-    #bild {
-      display: flex;
-      flex-wrap: nowrap;
-      margin: 15px;
-    }
-    #bild span img {
-      width: 500px;
-      height: 500px;
-      border-radius: 10px;
-    }
-    .bild {
-      margin: 5px;
-    }
+.text {
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: monospace;
+  background: rgba(49, 49, 49, 0.6);
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 50px 0px 50px;
+}
 
-    #nav {
-      display: flex;
-      flex-wrap: nowrap;
-      max-width: 2005px;
-      height:auto;
-      list-style-type: none;
-      text-align: center;
-      background: rgba(49, 49, 49, 0.6);
-    }
-      
-    #nav li {
-      display: inline;
-      list-style-type: none;
-      padding: 10px 275px 10px 30px;
-      margin-left: 125px;
+.centrera {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 55em;
+  padding: 2em;
+}
 
-    }
-    
-    #nav a {
-      text-decoration: none;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: normal;
-      text-transform: normal;
-      letter-spacing: normal;
-      line-height: 1.3em;
-      color: #596365;
-      
-    }
-    
-    #nav a:hover {
-      text-decoration: none;
-      font-family: serif;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: normal;
-      text-transform: normal;
-      letter-spacing: normal;
-      line-height: 1.3em;
-      color: #000;
-    }
+#bild {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 15px;
+}
+#bild span img {
+  object-fit: cover;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
+.bild {
+  margin: 5px;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: rgba(49, 49, 49, 0.6);
+}
+
+#nav li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px 275px 10px 30px;
+  margin-left: 125px;
+}
+
+#nav a {
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: #596365;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  font-family: serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: #000;
+}
+.lcentrera {
+  display: flex;
+  justify-content: center;
+}
+#länkar {
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+  background: rgba(49, 49, 49, 0.6);
+  display: inline-block;
+  word-spacing: 350px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+#länkar a:link {
+  text-decoration: none;
+}
+#länkar a:visited {
+  text-decoration: none;
+  color: aqua;
+}
+#länkar a:hover {
+  text-decoration: none;
+  color: #000;
+}
